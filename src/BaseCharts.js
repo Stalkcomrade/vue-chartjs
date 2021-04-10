@@ -1,4 +1,7 @@
-import Chart from 'chart.js'
+// import Chart from 'chart.js'
+import { BarController, BarElement, CategoryScale, Chart, LinearScale } from 'chart.js';
+Chart.register(CategoryScale, LinearScale, BarController, BarElement);
+
 
 export function generateChart (chartId, chartType) {
   return {
