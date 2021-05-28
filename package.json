@@ -48,6 +48,7 @@
     "types/*.d.ts"
   ],
   "scripts": {
+    "prepare": "yarn run release && yarn run build:es",
     "dev": "node build/dev-server.js",
     "build": "yarn run release && yarn run build:es",
     "build:es": "cross-env BABEL_ENV=es babel src --out-dir es",
