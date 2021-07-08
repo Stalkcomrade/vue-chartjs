@@ -62,10 +62,7 @@
     "docs:build": "vuepress build docs"
   },
   "peerDependencies": {
-    "chart.js": ">= 3.4.0"
-  },
-  "dependencies": {
-    "@types/chart.js": "3.4.0"
+    "chart.js": "3.4.0"
   },
   "devDependencies": {
     "@babel/cli": "7.0.0-beta.42",
