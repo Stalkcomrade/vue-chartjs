@@ -1,5 +1,5 @@
-import { BarController, BarElement, CategoryScale, Chart, LinearScale, Tooltip, PieController, PieControllerChartOptions, ArcElement } from 'chart.js'
-Chart.register(CategoryScale, LinearScale, BarController, BarElement, PieController, PieControllerChartOptions, ArcElement, Tooltip)
+import { BarController, BarElement, CategoryScale, Chart, LinearScale, Tooltip, PieController, ArcElement } from 'chart-legacy.js'
+Chart.register(CategoryScale, LinearScale, BarController, BarElement, PieController, ArcElement, Tooltip)
 
 export function generateChart (chartId, chartType) {
   return {
